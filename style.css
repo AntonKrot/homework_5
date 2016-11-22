@@ -1,0 +1,79 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background: url(http://cloudberrystudio.ru/ff/1/uzor_tekstura_seryy_fon_1920x1200.jpg);
+}
+
+.wrapper {
+	min-height: cal(100vh-130px);
+}
+
+.wrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header {
+	background: #F1F1F1;
+	height: 115px;
+	font-family: "Adine Kirnberg";
+	text-transform: capitalize;
+	font-size: 40px;
+	text-align: center;
+	opacity: 0.6;
+}
+
+.text {
+	margin: 0px;
+	padding: 15px;
+}
+
+.content {
+	background: #222222;
+}
+
+.item_gallery {
+	height: 300px;
+	width: 225px;
+	border: 2px groove grey;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block;
+	padding: 3px;
+	margin: 35px 20px 35px 65px;
+
+}
+
+.item_gallery:hover {
+	box-shadow: 0 0 10px 0.9px #fff;
+}
+
+.img_gallery {
+	height: 300px;
+	width: 225px;
+	border-radius: 10px;
+}
+
+
+.item_gallery .img_gallery {
+ 	-moz-transition: all 1s ease-out;
+ 	-o-transition: all 1s ease-out;
+ 	-webkit-transition: all 1s ease-out;
+ }
+ 
+.item_gallery .img_gallery:hover{
+ 	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+ }
+
+.footer {
+	background: #F1F1F1;
+	height: 130px;
+	opacity: 0.5;
+	font-family: "Adine Kirnberg";
+	text-transform: capitalize;
+	font-size: 40px;
+	text-align: center;
+}
